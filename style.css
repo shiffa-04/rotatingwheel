@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 243, 227);
+}
+.wheel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wheel h1{
+    text-transform: uppercase;
+    color: brown;
+    padding-bottom: 70px;
+
+}
+.circle{
+    display: inline-block;
+    border-right: 150px solid lightsalmon;
+    border-top: 150px solid aquamarine;
+    border-left: 150px solid pink;
+    border-bottom: 150px solid yellowgreen;
+    border-radius: 50%;
+    transition: transform .6s ease-in-out;
+}
+.circle:hover{
+    transform: rotate(360deg);
+}
